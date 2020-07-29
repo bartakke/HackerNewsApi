@@ -12,11 +12,13 @@ import { Metrial } from './material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FeedsComponent } from './components/feeds/feeds.component';
+import { LoaderComponent } from './components/loader/loader.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FeedsComponent,
+    LoaderComponent,
   ],
   imports: [
     BrowserModule,
