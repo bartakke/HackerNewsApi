@@ -1,1 +1,9 @@
 
+<div>
+  <div *ngFor="let story of storiesTemp">
+    <h2>{{ story.title }}</h2>
+    <p>Type: {{ story.type }}</p>
+    <p>Link: {{ story.url }}</p>
+    <p>Score: {{ story.score }}</p>
+  </div>
+</div>

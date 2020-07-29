@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseurl: 'https://hacker-news.firebaseio.com'
+  baseurl: 'https://hacker-news.firebaseio.com/v0/'
 };
 
 /*
