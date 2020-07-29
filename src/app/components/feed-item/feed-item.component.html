@@ -1,16 +1,19 @@
-
-    <li class="list-group-item feed-list-item">
-      <div class="title">
-        <a href="{{feedItem.url}}" target="_blank" title="{{feedItem.title}}">
-          {{ feedItem.title }}
-        </a>
-        <span >
-          ({{ feedItem.url }})
-        </span>
-      </div>
-      <div>
-        <span>Type: {{ feedItem.type }}</span> &nbsp;
-        <span>Score: {{ feedItem.score }}</span>
-      </div>
-    </li>
-
+<div class="card" >
+  <div class="title">
+    <a href="{{feedItem.url}}" target="_blank" title="{{feedItem.title}}">
+      {{ feedItem.title | slice:0:60 }}
+    </a>
+  </div>
+  <div class="d-flex justify-content-between " style="min-height:40px">
+    <span>Type: {{ feedItem.type }}</span>
+    <span>Written By: {{ feedItem.by }}</span>
+  </div>
+  <div class="text-left">
+    <span>Score: {{ feedItem.score }}</span>
+  </div>
+  <div class="btn-container" *ngIf="feedItem.url">
+    <a class=" btn c-button"  href="{{feedItem.url}}" target="_blank" title="{{feedItem.title}}">
+      view Article
+    </a>
+  </div>
+</div>

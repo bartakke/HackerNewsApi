@@ -3,6 +3,10 @@
   font-size:16px ;
 }
 
+.title{
+  min-height:80px;
+}
+
 .title a{
   font-size: 20px !important;
   text-decoration: none !important;
@@ -15,4 +19,47 @@
 
 .feed-list-item p {
   margin-bottom: 0.5rem;
+}
+
+
+.card{
+  border-radius: .5rem;
+  min-height: 240px;
+  widows: 324px;
+  padding:15px;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05);
+  border: 0 solid #e2e8f0;
+  cursor: pointer;
+  transition: transform .5s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+
+
+.c-button {
+  position: relative;
+  bottom: 0;
+  line-height: 1;
+  padding: 11px 20px 11px 20px;
+  border-radius: 20px;
+  appearance: none;
+  color: #FFF;
+  background: rgb(0, 154, 217) !important;
+  border: 1px solid rgb(0, 154, 217) !important;
+  transition: .2s cubic-bezier(.455,.03,.515,.955);
+  /* transition-property: color background; */
+}
+
+.c-button:hover {
+  background: #FFF !important;
+  color:  rgb(0, 154, 217) !important;
+}
+
+.btn-container{
+  position: absolute;
+  bottom: 20px;
+  left: 30%;
 }

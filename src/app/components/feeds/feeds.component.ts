@@ -22,7 +22,7 @@ export class FeedsComponent implements OnInit {
 
     this._hackerNewApi.get('newstories.json').subscribe(item => {
 
-      Object.values(item).slice(0, 10).forEach(feed => {
+      Object.values(item).slice(0, 12).forEach(feed => {
         this.showLoader = true;
         this._hackerNewApi.get(`item/${ feed }.json`).subscribe(item => {
           this.showLoader = false;

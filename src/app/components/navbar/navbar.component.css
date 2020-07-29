@@ -10,7 +10,7 @@
 .nav-items{
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .nav-items li{
@@ -22,7 +22,6 @@
   background-color: #fff;
   border-radius: 5px ;
   box-shadow: -5px 4px 7px 0 rgba(194,186,194,1);
-  transition: transform .5s;
 }
 
 .nav-item:hover a{
