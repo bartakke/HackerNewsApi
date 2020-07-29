@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { UserService } from './services/user.service';
+import { HackerNewApi } from './services/hackernewapi.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -11,7 +11,7 @@ export class AppComponent {
   loginForm: FormGroup;
   constructor(
     private _formbuilder: FormBuilder,
-    private _serverApi: UserService
+    private _serverApi: HackerNewApi
   ) {
     this.initializeForm();
   }

@@ -18,7 +18,7 @@ export class ServerAPIErrorModel {
 @Injectable({
   providedIn: 'root'
 })
-export class UserService {
+export class HackerNewApi {
   constructor(private http: HttpClient ) { }
 
   get<T>(url: string, queryParams?: any): Observable<T> {

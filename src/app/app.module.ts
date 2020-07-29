@@ -10,9 +10,13 @@ import {MatPaginatorModule} from '@angular/material/paginator';
 import {  MatInputModule } from '@angular/material';
 import { Metrial } from './material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { FeedsComponent } from './components/feeds/feeds.component';
 @NgModule({
   declarations: [
     AppComponent,
+    NavbarComponent,
+    FeedsComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,19 @@
+.bg-light{
+  background:  rgb(0, 154, 217) !important;
+
+}
+
+.navbar a{
+  color: #fff !important;
+}
+
+.nav-items{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items li{
+  width: 10%;
+  text-align:center;
+}
