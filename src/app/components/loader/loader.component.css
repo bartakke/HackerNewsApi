@@ -1,0 +1,13 @@
+
+.spinner-container{
+  position: relative;
+}
+
+.spinner{
+  position: absolute;
+    justify-content: center;
+    position: absolute;
+    left: 50%!important;
+    z-index: 1!important;
+    margin-top: 100px;
+}
