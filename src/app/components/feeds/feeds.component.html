@@ -1,20 +1,7 @@
 <div>
   <app-loader *ngIf="showLoader "></app-loader>
   <ul class="list-group list-group-flush feed-list"  *ngFor="let story of storiesTemp">
-    <li class="list-group-item feed-list-item" *ngIf="story.title && story.url">
-      <div class="title">
-        <a href="{{story.url}}" target="_blank" title="{{story.title}}">
-          {{ story.title }}
-        </a>
-        <span >
-          ({{ story.url }})
-        </span>
-      </div>
-      <div>
-        <span>Type: {{ story.type }}</span> &nbsp;
-        <span>Score: {{ story.score }}</span>
-      </div>
-    </li>
+    <app-feed-item [feedItem]='story'></app-feed-item>
   </ul>
 </div>
 

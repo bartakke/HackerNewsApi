@@ -13,12 +13,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FeedsComponent } from './components/feeds/feeds.component';
 import { LoaderComponent } from './components/loader/loader.component';
+import { FeedItemComponent } from './components/feed-item/feed-item.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FeedsComponent,
     LoaderComponent,
+    FeedItemComponent,
   ],
   imports: [
     BrowserModule,

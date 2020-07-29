@@ -1,0 +1,16 @@
+
+    <li class="list-group-item feed-list-item">
+      <div class="title">
+        <a href="{{feedItem.url}}" target="_blank" title="{{feedItem.title}}">
+          {{ feedItem.title }}
+        </a>
+        <span >
+          ({{ feedItem.url }})
+        </span>
+      </div>
+      <div>
+        <span>Type: {{ feedItem.type }}</span> &nbsp;
+        <span>Score: {{ feedItem.score }}</span>
+      </div>
+    </li>
+

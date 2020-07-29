@@ -27,7 +27,6 @@ export class FeedsComponent implements OnInit {
         this._hackerNewApi.get(`item/${ feed }.json`).subscribe(item => {
           this.showLoader = false;
           this.storiesTemp.push(item);
-          console.log( this.storiesTemp[0])
         });
       })
     })
