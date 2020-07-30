@@ -4,7 +4,7 @@ This project is to Display feed from Hacker News API.
 
 ## Install Dependencies
 
-Run `ng install` for a dev server. The app will automatically download required dependencies.
+Run `npm install` for a dev server. The app will automatically download required dependencies.
 
 ## Development server
 
