@@ -14,6 +14,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FeedsComponent } from './components/feeds/feeds.component';
 import { LoaderComponent } from './components/loader/loader.component';
 import { FeedItemComponent } from './components/feed-item/feed-item.component';
+
 @NgModule({
   declarations: [
     AppComponent,

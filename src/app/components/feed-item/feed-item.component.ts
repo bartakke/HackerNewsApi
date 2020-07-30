@@ -17,5 +17,6 @@ export class FeedItemComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    console.log(this.feedItem)
   }
 }

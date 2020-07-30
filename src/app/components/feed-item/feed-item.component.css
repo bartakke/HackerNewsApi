@@ -1,7 +1,4 @@
-.span{
-  color: #696969;
-  font-size:16px ;
-}
+
 
 .title{
   min-height:80px;
@@ -58,8 +55,11 @@
   color:  rgb(0, 154, 217) !important;
 }
 
-.btn-container{
-  position: absolute;
-  bottom: 20px;
-  left: 30%;
+
+.published-by{
+  font-size:14px;
+}
+
+.published-on{
+  font-size:12px;
 }
